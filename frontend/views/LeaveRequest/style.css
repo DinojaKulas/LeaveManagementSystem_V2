@@ -1,7 +1,6 @@
 /* Global Styles */
-body{
+body {
     font-family: Arial, sans-serif;
-    background-color: #0b3738;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,15 +9,13 @@ body{
     height: 100vh;
 }
 
-
 .container {
-    background: #18c499;
+    background: #397b9c;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
 }
-
 
 .header {
     display: flex;
@@ -26,7 +23,6 @@ body{
     align-items: center;
     margin-bottom: 20px;
 }
-
 
 h2 {
     text-align: center;
@@ -42,7 +38,6 @@ h2 {
     margin-bottom: 5px;
 }
 
-
 .form input[type="text"],
 .form input[type="password"],
 .form input[type="date"],
@@ -55,7 +50,6 @@ h2 {
     box-sizing: border-box;
 }
 
-
 .form input[type="text"]:focus,
 .form input[type="password"]:focus,
 .form input[type="date"]:focus,
@@ -64,8 +58,8 @@ h2 {
     outline: none;
 }
 
-
-.btn, .btn-logout {
+.btn,
+.btn-logout {
     background-color: #0066cc;
     color: white;
     padding: 10px;
@@ -75,23 +69,20 @@ h2 {
     font-size: 16px;
 }
 
-
 .btn-logout {
     padding: 5px 10px;
     font-size: 14px;
 }
 
-
-.btn:hover, .btn-logout:hover {
+.btn:hover,
+.btn-logout:hover {
     background-color: #004999;
 }
-
 
 .leave-list {
     list-style-type: none;
     padding: 0;
 }
-
 
 .leave-list li {
     background-color: #e9ecef;
@@ -101,9 +92,6 @@ h2 {
     font-size: 14px;
 }
 
-
-
-
 .leave-item {
     padding: 10px;
     border: 1px solid #ddd;
@@ -112,21 +100,17 @@ h2 {
     border-radius: 4px;
 }
 
-
 .status {
     font-weight: bold;
 }
-
 
 .status.pending {
     color: #f0ad4e;
 }
 
-
 .status.approved {
     color: #5cb85c;
 }
-
 
 .status.rejected {
     color: #d9534f;

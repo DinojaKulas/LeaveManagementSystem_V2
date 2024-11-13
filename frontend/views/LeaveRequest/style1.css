@@ -1,20 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #032829;
+    background-image: url("/LeaveManagementSystem_V2/frontend/layouts/HD-Blur-Pictures-Download.jpg");
     margin: 0;
     padding: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-
 
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background: #18c499;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .header {
     display: flex;
@@ -22,11 +21,9 @@ body {
     align-items: center;
 }
 
-
 .header h2 {
     margin: 0;
 }
-
 
 .btn-logout {
     background-color: #e9150e;
@@ -37,19 +34,16 @@ body {
     cursor: pointer;
 }
 
-
 h2 {
     margin-bottom: 20px;
     color: #333;
 }
-
 
 label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
-
 
 input,
 textarea,
@@ -61,11 +55,6 @@ select {
     border-radius: 4px;
 }
 
-
-
-
-
-
 .btn {
     background-color: #5cb85c;
     color: white;
@@ -74,7 +63,6 @@ select {
     border-radius: 4px;
     cursor: pointer;
 }
-
 
 .btn-approve {
     background-color: #5cb85c;
@@ -85,7 +73,6 @@ select {
     cursor: pointer;
 }
 
-
 .btn-reject {
     background-color: #d9534f;
     color: white;
@@ -94,7 +81,6 @@ select {
     border-radius: 4px;
     cursor: pointer;
 }
-
 
 .modal {
     display: none;
@@ -109,7 +95,6 @@ select {
     padding-top: 60px;
 }
 
-
 .modal-content {
     background-color: #fff;
     margin: 5% auto;
@@ -119,14 +104,12 @@ select {
     border-radius: 8px;
 }
 
-
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
 
 .close:hover,
 .close:focus {

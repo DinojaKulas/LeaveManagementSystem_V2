@@ -1,65 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../layouts/HD-Blur-Pictures-Download.jpg");
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            
-        }
-        .navbar{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #000;
-            padding: 15px;
-        }
-        .company-name {
-            color: #fff;
-            font-size: 24px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .navbar-right{
-            display: flex;
-            align-items: center;
-        }
-        .menu-item, .dropbtn {
-            color: rgb(235, 235, 235);
-            padding: 14px 20px;
-            text-decoration: none;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 18px;
-        }
-        .menu-item:hover, .dropbtn:hover {
-            background-color: #7e5252;
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        .dropdown-content{
-            display: none;
-            position: absolute;
-            background-color: #0a0a0a;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-             z-index: 1;
-        }
-        .dropdown-content a {
-            color: rgb(245, 236, 236);
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            font-size: 18px;
-        }
-        .dropdown-content a:hover{
-            background-color: #f59191;
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        .dropbtn:hover .dropbtn {
-            background-color: #555;
-        }
-   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 15px;
+}
+
+.company-name {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item,
+.dropbtn {
+    color: rgb(235, 235, 235);
+    padding: 14px 20px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu-item:hover,
+.dropbtn:hover {
+    background-color: #61cadf;;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a0a0a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(245, 236, 236);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {
+    background-color: #61cadf;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover .dropbtn {
+    background-color: #61cadf;
+}
