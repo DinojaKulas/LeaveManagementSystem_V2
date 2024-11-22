@@ -10,6 +10,8 @@ body {
 }
 
 .container {
+    position: absolute;
+    top: 10%;
     background: #397b9c;
     padding: 20px;
     border-radius: 8px;
